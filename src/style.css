@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+
+header{
+  background-image:-webkit-linear-gradient(top,rgba(5, 9, 22, 0.603) 50%,rgba(5, 9, 22, 0.603));
+  position: relative;
+  margin: 0%;
+  width: 100%;
+  height: 23%;
+  padding: 12px 0 10px;
+
+  color: aliceblue;
+  text-align: center;
+}
+
+footer{
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+
+  background-image:-webkit-linear-gradient(top,rgba(5, 9, 22, 0.603) 50%,rgba(5, 9, 22, 0.603));
+}
+
+body{
+  background-color: #10141b;
+  background-image: url(https://gifimage.net/wp-content/uploads/2018/11/pixel-gif-stars-1.gif);
+  width: 100%;
+  margin: 0%;
+  font-family: 'Benne', serif;
+}
+
+h2{
+  display: flex;
+  position: absolute;
+  width: 110px;
+  height: 73px;
+  left: 770px;
+  top: 70px;
+
+  font-size: 13px;
+  line-height: 15px;
+
+  color: #FFFFFF;
+}
+
+h1{
+  top: 100px;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.targets{
+  display:inline-flex;
+  flex-flow: row wrap;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+
+  width:  125px;
+  height: 215px;
+  margin: 20px 10px 10px 10px ;
+  padding: 10px 10px;
+  background:-webkit-linear-gradient(top,rgba(5, 9, 22, 0.555) 50%,rgba(12, 24, 66, 0.473));
+  border-radius: 10px;
+  position: relative;
+  transform-style:preserve-3d;
+  animation: initial 5s;
+
+}
+
+.divFront{
+  height: inherit;
+  width: inherit;
+  position: absolute;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+
+.divBack{
+  position: absolute;
+  width: inherit;
+  height: inherit;
+}
+
+#audio{
+  display:block;
+  }
+
+.front{
+  width: 125px;
+  height: 210px;
+  border-radius: 10px;
+}
+.back{
+  width: 120px;
+  height: 205px;
+  border-radius: 10px;
+}
+
+.btnNewGame{
+  background:rgba(76, 74, 72, 0.3);
+  border-radius: 5px;
+  position: absolute;
+  width: 142px;
+  height: 42px;
+  left: 212px;
+  top: 78px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #D4A00B;
+}
